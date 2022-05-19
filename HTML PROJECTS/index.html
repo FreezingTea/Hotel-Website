@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Getaway Holidays</title>
+  <meta name="Viewport" content="with=device-width">
+	<link  rel ="stylesheet" type= "text/css"  href = "getawayholidays.css"> 
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+  <section class="head">
+    <div class="container flex1">
+      <div class="scoial">
+		  <a href ="https://www.facebook.com/gudhkaelectronic/"><i class="fab fa-facebook-f"></i></a>
+		  <a href ="https://twitter.com/gudhkaelectonic"><i class="fab fa-twitter"></i></a>
+		  <a href ="https://www.instagram.com/gudhka_electronics/"><i class="fab fa-instagram"></i></a>
+		  <a href ="https://www.tiktok.com/@gudhkaelectronics"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="logo">
+        <img src="getawayholidaylogo.jpg" width="150" height="70" 5order="1" alt="LOGO">
+      </div>
+      <div class="address">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>9 west building, 1st Floor, Westlands, Nairobi, Kenya</span>
+      </div>
+    </div>
+  </section>
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar flex1">
+        <div class="sticky_logo logo">
+          <img src="getawayholidaylogo.jpg" width="200" height="85" border="1" alt="Logo">
+        </div>
+
+        <ul class="nav-menu">
+          <li> <a href="#home" style="color: grey;" >Home</a> </li>
+          <li> <a href="#about" style="color: grey;">About Us</a> </li>
+          <li> <a href="#room" style="color: grey;">Services Offered</a> </li>
+          <li> <a href="#services" style="color: grey;">Holiday Packages</a> </li>
+          <li> <a href="#shop" style="color: grey;">shop</a> </li>
+          <li> <a href="#testimonials" style="color: grey;">Reviews</a> </li>
+          <li> <a href="#gallary" style="color: grey;">News & Articles</a> </li>
+          <li> <a href="#contact" style="color: grey;">contact Us</a> </li>
+          <li> <a  href="gallery.html" target="_blank" style="color: grey;">Gallary</a> </li>
+          
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="head_contact">
+          <i class="fas fa-phone-volume"></i>
+          <span style="color: darkgrey;">+254 7234 9768</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobliemmenu);
+
+    function mobliemmenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+  </script>
+
+<script>
+  alert("Welcome to Getaway Holidys!");
+</script>
+
+<script>
+  alert("There is a 50% off discount available for a short period of time.")
+</script>
+
+  <section class="home" id="home">
+    <div class="container">
+		<marquee behavior="scroll" direction="right"><h1>Getaway Holidays !</h1></marquee> 
+      <p style="color: black;">Discover the best places where you can ski & enjoy the most</p>
+			<font size="80" face="fantasy" color="#0BAFB1">
+				<a href="booknow.html" target="_blank">BOOK NOW!</a>
+			</font>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="heading">
+        <h5>ABOUT US</h5>
+        <h2>More information regarding us</h2>
+      </div>
+
+      <div class="content flex  top">
+        <div class="left">
+          <h3>Everything about us</h3>
+          <p>We are the premier mountain ski resort company in the whole of Affrica and we are the leader in the luxary destinations to travel at iconic locations at affrodable rates.What ever we offer must meet the needs of our 5 stackholders:<br></p>
+			      <p>1. Our Guests<br>
+			      2. Our Employees<br>
+			      3. Our Communities<br>
+			      4. Our Natural Environment<br>
+			      5. Our Shareholders<br></p>
+      <p>Providing a safer environment for our guests and associates is our most top priority. The safety featues that we will have in the hotel will be the following:</p><br>
+           <p>1. Self-locking room doors.<br>
+            2.Safety deposit boxes for guest valuables<br>
+            3.Watching guests with light baggage who could become potential skippers.<br>
+            4.Watching a walk-in who can be a thief.<br>
+            5.Avoiding giving room numbers to visitors or guest names to telephone callers.<br>
+            6.Strictly controlling the master key.<br>
+           7.Posting security personals on the floor.<br>
+           8.Keeping all entrances, corridors and staircases well illuminated.<br>
+           9.Reporting immediately any suspicious characters.</p>
+        </div>
+        <div class="right">
+          <img src="ski.png" width="750" height="550" border="1" alt="ski">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="wrapper">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="heading">
+            <h5>THE MOUNTAIN VIEW</h5>
+            <h3>A charming view of the mountain</h3>
+          </div>
+          <p>People climb mountains for the rare chance to enjoy bird's-eye views of the world below. Looking down into valleys, over clouds and across great expanses of land, the climbs can be strenuous but are definitely worth the reward.
+
+But for those who aren't exactly ready to scale Everest, here's a collection of images that showcase the best mountaintop views around the world. It's all about perspective, after all.</p>
+          <p>It's mountains like these that make one succumb to Mother Nature in awe.
+
+These colorful mountains can be found in Zhangye Danxia Landform Geological Park in northwest China's Gansu province.</p>
+		  </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+  <section class="wrapper2">
+    <div class="container">
+      <div class="heading mtop">
+        <h5>FACILITIES</h5>
+        <h2>Giving entirely awesome </h2>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>Pick Up & Drop</h3>
+          <p>We will pick you up from the hotel you are staying in and tak you to the activity place and once you are done we will drop you back to your hotel.</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-mug-hot"></i>
+          <h3>refreshments will be served</h3>
+          <p>Refreshments will be kept at the ski area for you to have for free and they will be available the whole duration of the day activity.</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-tshirt"></i>
+          <h3>Skiing and Snowboarding Cloths</h3>
+          <p>The winter cloths and snow shoes will be there for parchase and you can carry your own if you want to.</p>
+        </div>
+        <div class="box">
+          <i class="far fa-helmet-battle"></i>
+          <h3>Sking and Snowboarding Equipment</h3>
+          <p>Sking and Snowboard equipment will be available for parchase by the customer but the cutomer can bring their own equipment if they have.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="room wrapper2 top" id="room">
+    <div class="container">
+      <div class="heading">
+        <h5>OUR SERVICES</h5>
+        <h2>The Services that we offer</h2>
+      </div>
+      <div class="content flex mtop">
+        <div class="left grid2">
+          <div class="box">
+            <i class="fas fa-snowboarding"></i>
+			  <p>Teaching</p>
+            <h3>Sking and Snowboarding Lessons</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-dollar-sign"></i>
+            <p>Hiring</p>
+            <h3>Equipment Hiring</h3>
+          </div>
+          <div class="box">
+            <i class="fa fa-screwdriver"></i>
+            <p>Servicing</p>
+            <h3>Snowboards and Ski Blades Servicing</h3>
+          </div>
+          <div class="box">
+            <i class="fa fa-clipboard-list-check"></i>
+            <p>Other Activites</p>
+			  <h3>Bob sledding</h3></br>
+			<h3>Ice skating</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-biking-mountain"></i>
+            <p>Other Activites</p>
+            <h3>Snow Mountain Biking</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-people-carry"></i>
+            <p>Other Activites</p>
+            <h3>Spa Treatments</h3>
+          </div>
+        </div>
+        <div class="right">
+          <img src="s1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timer about wrapper">
+    <div class="background"> </div>
+    <div class="container">
+      <div class="heading">
+		  <behavior="scroll" direction="right"><h5>LAST MINUTE!</h5>
+		  <behavior="scroll" direction="right"><h2> <span>Incredible!</span>  The 50% discount last for:</h2>
+      </div>
+
+      
+      <div id="time" class="flex1 mtop"> </div>
+    </div>
+  </section>
+
+  <script src="jquery.countdown.js" charset="utf-8"></script>
+  <script src="jquery.countdown.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $('#time').countdown('2024/01/01', function(event) {
+      $(this).html(event.strftime(
+        '<div class="clock"><span>%d</span> <p>Days</p></div> ' +
+        '<div class="clock"><span>%H</span> <p>Hours</p></div> ' +
+        '<div class="clock"><span>%M</span> <p>Minutes</p></div> ' +
+        '<div class="clock"><span>%S</span> <p>Seconds</p></div> '
+      ));
+    });
+  </script>
+
+  <section class="offer mtop" id="services">
+    <div class="container">
+      <div class="heading">
+        <h5>Holiday Packages</h5>
+        <h3>Your holiday destination packages</h3>
+      </div>
+
+      <div class="content grid2 mtop">
+        <div class="box flex">
+          <div class="left">
+            <img src="p1.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Package 1 (The Bassic Package)</h4>
+                  <p>– 1 morning refreshment(hot drink and snack).<br>
+				– 1 evening meal served in the on-site restaurant.<br>
+				– 1 x 1 hour spa treatment.<br>
+				– 1 day free ski lift pass.</p>
+			  <h5><strong><ins><mark>From $150/Day</mark></ins></strong></h5>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="p2.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Package 2 (The Standard Package)</h4>
+            <p>– 3 morning refreshments (hot drink and snack).<br>
+				– 3 evening meals served in the on-site restaurant.<br>
+				– 3 x 1 hour spa treatments.<br>
+				– 3 days free ski lift pass.</p>
+			<h5><strong><ins><mark>From $300/Day</mark></ins></strong></h5>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="p3.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Package 3 (Deluxe Package)</h4>
+            <p>– daily morning refreshments (hot drink and snack).<br>
+				– 5 evening meals served in the on-site restaurant.<br>
+				– 5 x 1 hour spa treatments.<br>
+				– 1 week free ski lift pass.</p>
+            <h5><strong><ins><mark>From $550/Day</mark></ins></strong></h5>
+          </div>
+        </div>
+        <div class="box flex">
+          <div class="left">
+            <img src="p4.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>Package 4 (Custom Made By the Customer)</h4>
+            <p>The Customer has to contact us to gget a quotation on the type of package they want.<strong>THE CUSTOMER HAS TO CONTACT US!</strong></p>
+            <h5><strong><ins><mark>From $650-$1,000/Day</mark></ins></strong></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="area top">
+    <div class="container">
+      <div class="heading">
+        <h5>Holiday Packages</h5>
+        <h3>Packages</h3>
+      </div>
+
+      <div class="content flex mtop">
+        <div class="left">
+        <img src="m1.jpg" width="700" height="450" border="1" alt="mountain">
+        </div>
+        <div class="right">
+              <p>• Basic package in this package the customer will get, 1 morning refreshment (hot drink and snack), 1 evening meal served in the on-site restaurant,1 day one hour spa treatment and a 1 day free ski lift pass and it is only walid for <strong> ONLY ONE PEARSON !</strong>. </p><br>
+		        	<p>• Standard package in this package the customer will get, 3 morning refreshments (hot drink and snack), 3 evening meals served in the on-site restaurant, 3 days for 1 hour each spa treatments and 3 days free ski lift pass and this is only valid for <strong>ONE PEARSON ONLY !</strong>.</p> <br>
+			        <p>• Deluxe package in this package the customer will get, a daily morning refreshments (hot drink and snack), 5 evening meals served in the on-site restaurant, 5 days each 1 hour spa treatments and a 1 week free ski lift pass and it is only valid for <strong>ONE PEARSON ONLY PEARSON !</strong>.</p> <br> 
+		        	<p>• Custom packages in this package the guest/ customer can customize it to their liking and how they want the activites set for them to be done during the day, but they must contact the company to arrange any custom package in advance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer2 about wrapper timer top" id="shop">
+    <div class="container">
+      <div class="heading">
+        <h5>Products that we offer of the skiing activites</h5>
+        <h3>You can get exclusive and good quality products here</h3>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <h3>Skiing Helmet</h3>
+          <p>For men: $55</p>
+			<p>For women: $50</p>
+			<p>For kids: $40</p>
+        </div>
+        <div class="box">
+          <h3>Skiing Cloths (includes: Gloves, Goggles, Full body suite and shose)</h3>
+			<p>For men: $450</p>
+			<p>For women: $405</p>
+			<p>For kids: $300</p>
+			
+        </div>
+        <div class="box">
+          <h3>Sking Blades and Sking Sticks</h3>
+			      <p>For men: $650</p>
+			      <p>For women: $505</p>
+			      <p>For kids: $450</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="customer top" id="testimonials">
+    <div class="container">
+      <div class="heading">
+        <h5>REVIEWS</h5>
+        <h3>What customers say </h3>
+      </div>
+
+      <div class="owl-carousel owl-theme mtop">
+        <div class="item">
+          <p>Have had a great ski holiday in Are. I think we were lucky with the weather: blue skies and no wind all week. Went last week of March with perfect snow all over the mountain and no slush even at the end of the day! Probably best later in the season; cold and dark in January I guess. Easy to get to from Ostersund airport and only about a 75 minute drive. Very little traffic. No more expensive than France, with higher standards. Skistar run the resort and in my opinion do an excellent job. If you hire equipment and buy lift passes in advance they give a good price reduction. Also, as the resort is not high, you're not likely to suffer from any altitude sickness. Quite a lot of T bars, however. I think these are there because of the wind that other people have reported on. Plenty of easy off-piste through the trees that my children love. Went over Easter and it was quite busy with some long queues especially in the morning, all quite orderly though. Despite being busy the runs were not at all crowded. All in all, had a great family holiday.</p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="b1.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Jordana</h3>
+              <span>Customers</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <p>Spent 3 days in Are in mid March. Like another reviewer we were really unlucky with the weather. The top stations never opened, and a few chairs had to close on certain days. In saying this though we still had a great time considering the conditions. Due to lift closure no top runs were open but we still did not have to queue and in many cases we were the only people on some pistes. </p>
+          <div class="admin flex">
+            <div class="img">
+              <img src="b2.jpg" alt="">
+            </div>
+            <div class="text">
+              <h3>Jenny</h3>
+              <span>Customer</span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </section>
+	  <script>
+		$('.owl-carousel').owlCarousel({
+		  loop: true,
+		  margin: 10,
+		  nav: false,
+		  responsive: {
+			0: {
+			  items: 1
+			},
+			768: {
+			  items: 1
+			},
+			1000: {
+			  items: 1
+			}
+		  }
+		})
+	  </script>
+
+  <section class="blog top" id="blog">
+    <div class="container">
+      <div class="heading">
+        <h5>OUR NEWS ARTICLE</h5>
+        <h3>News & articles updates</h3>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <div class="img">
+            <img src="c1.jpg" alt="Image">
+          </div>
+          <div class="text">
+            <div class="flex">
+            </div>
+            <h3>This Mind-Blowing Ski Film Was Just Nominated For 2 Sports Emmy Awards</h3>
+            <p>We didn’t need the National Academy of Television Arts & Sciences (NATAS) to tell us that Markus Eder’s 10-minute freeskiing film, “The Ultimate Run,” is a work of art. Watch it, and you’ll realize it’s a freeskiing film that transcends all the other ski edits out there because Eder’s skiing is that much more beautiful, and the cinematography that much more artistic.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="c2.jpg" alt="Image">
+          </div>
+          <div class="text">
+            <div class="flex">
+            </div>
+            <h3>Snow-Forecast’s Rolling News on Ski Resorts Re-Opening in 2022.</h3>
+            <p>An estimated 1000+ Ski Areas Are Currently Open Worldwide in at least 50 Countries on 4 Continents including: Africa: Morocco Asia: China, Iran, Israel, Japan, Kyrgyzstan, Lebanon, Mongolia, North Korea, Pakistan, South Korea, Tajikistan, Turkey, Uzbekistan Europe: Andorra, Armenia, Austria, Azerbaijan, Bosnia-Herzegovina, Bulgaria, Czech Republic, Estonia, Finland, France, Georgia, Germany, Greece, Iceland, Italy, Kazakhstan, Latvia, Liechtenstein, Lithuania, Moldova, Montenegro, North Macedonia, Norway, Poland, Portugal, Romania, Scotland, Serbia, Slovak Republic, Slovenia, Spain, Sweden, Switzerland. North America: Canada, USA</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="c3.jpg" alt="Image">
+          </div>
+          <div class="text">
+            <div class="flex">
+            </div>
+            <h3>There Were Just Six Avalanches in One Week in Colorado’s Ski Country</h3>
+            <p>Rescue crews in Colorado have been working overtime this week after a spate of avalanches. Officials responded to six human-triggered slides that occurred between Saturday, March 19, and Wednesday, March 23. Miraculously, there were no deaths or major injuries reported with the incidents.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map top">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8536284018583!2d36.809576315245494!3d-1.2599814359546346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f179512d6f8c3%3A0xfbfb96a81e90024f!2sOshwal%20college!5e0!3m2!1sen!2ske!4v1650034275506!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer>
+    <div class="container top">
+      <div class="subscribe" id="contact">
+        <h2>Subscribe to the newsletter</h2>
+        <p>Join the over 150,000 other people in the newsletter and enjoy coupon codes by email.</p>
+        <div class="input flex">
+          <input type="email" placeholder="Your Email address">
+          <button class="flex1">
+            <span>Subscribe</span>
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="content grid  top">
+        <div class="box">
+          <div class="logo">
+            <img src="getawayholidaylogo.jpg" alt"logo">
+          </div>
+          <p>Skiing is the use of skis to glide on snow. Variations of purpose include basic transport, a recreational activity, or a competitive winter sport. Many types of competitive skiing events are recognized by the International Olympic Committee (IOC), and the International Ski Federation (FIS).</p>
+          <div class="social flex">
+			  <a href ="https://www.facebook.com/gudhkaelectronic/"><i class="fab fa-facebook-f"></i></a>
+			  <a href ="https://twitter.com/gudhkaelectonic"><i class="fab fa-twitter"></i></a>
+			  <a href ="https://www.instagram.com/gudhka_electronics/"><i class="fab fa-instagram"></i></a>
+			  <a href ="https://www.tiktok.com/@gudhkaelectronics"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h2>What we have</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Ski Equipment</li>
+            <li><i class="fas fa-angle-double-right"></i>Ski Cloths</li>
+            <li><i class="fas fa-angle-double-right"></i>Ski Accessories</li>
+			      <li><i class="fas fa-angle-double-right"></i>Contact</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Services</h2>
+          <ul>
+            <li><i class="fas fa-angle-double-right"></i>Ski Equipment</li>
+            <li><i class="fas fa-angle-double-right"></i>Ski Cloths</li>
+            <li><i class="fas fa-angle-double-right"></i>Ski Accessories</li>
+            <li><i class="fas fa-angle-double-right"></i>Map</li>
+            <li><i class="fas fa-angle-double-right"></i>Ski Events</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h2>Contact Info</h2>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>9 west building, 1st Floor, Westlands, Nairobi, Kenya</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+254 7195 60183</p>
+            </div>
+          </div>
+          <div class="icon flex">
+            <div class="i">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>getawayholidays@info.com</p>
+				<p>yashgudhka.smia@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	  <p align="center">@Copyright © 2022 · Terms of use · Holiday Getaways · Privacy Policy</p>
+  </footer>
+</body>
+</html>
